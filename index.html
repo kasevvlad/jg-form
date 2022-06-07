@@ -9,31 +9,43 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <h3>Форма</h3>
-    <form action="" method="post">
-        <label for="name">Имя</label>
-        <input type="text" placeholder="Введите ваше имя...">
-        <label for="name">Фамилия</label>
-        <input type="text" placeholder="Введите вашу Фамилию...">
-        <label for="name">Номер телефона</label>
-        <input type="text" placeholder="+998ХХ ХХХ-ХХ-ХХ">
-        <label for="name">Ваша спецтальность</label>
-        <select>
-            <option>Специальность1</option>
-            <option>Специальность2</option>
-            <option>Специальность3</option>
-            <option>Специальность4</option>
-        </select>
-        <label for="name">Коротко о себе:</label>
-        <textarea name="">Введите текст</textarea>
-        <button>Отправить</button>
+    <div class="jgform">
+        <form action="" method="post">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <label for="name">Имя</label>
+                    <input type="text" placeholder="Введите ваше имя...">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="name">Фамилия</label>
+                    <input type="text" placeholder="Введите вашу Фамилию...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12"><label for="name">Номер телефона</label>
+                    <input type="text" placeholder="+998ХХ ХХХ-ХХ-ХХ">
+                </div>
+                <div class="col-12"><label for="name">Ваша спецтальность</label>
+                    <select>
+                        <option>Специальность1</option>
+                        <option>Специальность2</option>
+                        <option>Специальность3</option>
+                        <option>Специальность4</option>
+                    </select>
+                </div>
+                <div class="col-12"><label for="name">Коротко о себе:</label>
+                    <textarea name="">Введите текст</textarea>
+                </div>
+                <div class="col-12"><button>Отправить</button>
+                </div>
+            </div>
+
+            </form>
+     </div>
+
         
         
-        <!-- отправить
-        <button> ВАЖНО <a> - это ссылка <button> - кнопка
-        -->
+     
 
-
-    </form>
 </body>
 </html>
