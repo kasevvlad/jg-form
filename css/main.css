@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
@@ -11,8 +11,7 @@
     width: 600px;
     height: 600px;
     border: 1px solid red;
-    margin: 0 auto;
+    margin: 30px auto;
+    padding: 30px;
 }
-.row{
-    margin: 0 auto;
-}
+
